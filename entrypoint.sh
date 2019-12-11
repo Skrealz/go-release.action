@@ -26,4 +26,4 @@ curl \
   --data-binary "@${PROJECT_NAME}${EXT}" \
   -H 'Content-Type: application/gzip' \
   -H "Authorization: Bearer ${GITHUB_TOKEN}" \
-  "${UPLOAD_URL}?name=${PROJECT_NAME}${EXT}"
+  "${UPLOAD_URL}?name=${NAME}${EXT}"
